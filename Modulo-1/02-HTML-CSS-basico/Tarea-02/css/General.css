@@ -5,6 +5,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
 }
 
 #fondo{
@@ -149,11 +150,61 @@ margin: 5px;
 }
 .contenedorCont h3{
   font-size: 32px;
-  color: #313131;
+  color: #5a5a5a;
   margin-bottom: 1rem;
 }
 
 .contenedorCont p{
   padding: 0rem 10rem;
   margin-bottom: 1.5rem;
+  color: #505050;
+}
+
+.Ballena{
+  background-color: #f4fdff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.Ballena article{
+  background-color: white;
+  margin: 4rem 12rem;
+  padding: 2rem 0;
+  box-shadow: 1px 1px 10px #d5eaf0;
+
+}
+
+.Ballena h4{
+  margin-bottom: 1rem;
+  font-size: 24px;
+  font-weight: 200;
+  color: #5a5a5a;
+}
+
+.Ballena img{
+  width: 40rem;
+}
+
+#info{
+  padding: 3rem 0;
+  text-align: center;
+  color: #5a5a5a;
+}
+.o-actividades{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.o-actividades div{
+  margin: 1rem 3rem;
+}
+
+footer{
+  background-color: #313131;
+  padding: 0.2rem 0;
+  text-align: center;
+  color: #FFF;
 }
