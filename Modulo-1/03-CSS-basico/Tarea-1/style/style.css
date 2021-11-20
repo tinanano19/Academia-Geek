@@ -55,11 +55,11 @@ body{
 }
 
 .pseudoclase1:visited{
-    color: red;
+    color: #007BDF;
 }
 
 .pseudoclase2:active{
-    color: palevioletred;
+    color: #007BDF;
 }
 
 .pseudoclase3 p:target, h1:target {
@@ -98,7 +98,41 @@ body{
 }
 
 .pseudoclase5:focus{
-    background-color: #d02be6;
+    background-color: #007BDF;;
 }
-  
+.pseudoelemento1::first-letter {
+    font-size: 250%;
+    color: #007BDF;
+  }
 
+  .pseudoelemento2::first-line {
+    background-color: #007BDF;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .pseudoelemento3::after {
+    content: " → Esto lo agregué con el css";
+    background-color: #007BDF;
+    color: white;
+    border-color: black;
+    border-style: dotted;
+  }
+
+  .pseudoelemento4::before {
+    content: "Esto lo agregué con el css ♥ ";
+    background-color: #007BDF;
+    color: white;
+    border-color: black;
+    border-style: dotted;
+  }
+
+  .pseudoelemento5{
+    margin: 0 10rem;
+  }
+
+  .pseudoelemento5 li::marker {
+    color: #007BDF;
+    font-size: 1.5em;
+    
+  }
