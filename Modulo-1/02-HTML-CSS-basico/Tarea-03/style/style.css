@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #383838;
+}
+
+#fondo {
+  background: url(../img/BT1-GRANDPARENTS-GUIDE-HEADER-1536x550.jpg);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedorTitu {
+  background: #b1b0ab4d;
+  color: #fff;
+  font-size: 40px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+#titulo {
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+#titulo h1 {
+  float: left;
+}
+
+.menu2 {
+  float: right;
+  margin-top: 10px;
+}
+
+.menu2 a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  right: 10px;
+}
+
+.menu2 a:hover {
+  background: rgb(14, 202, 213, 0.5);
+}
+
+.ContenedorNav {
+  width: 100%;
+  margin: auto;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#Cabeza {
+  color: white;
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  background: #ec520b;
+  padding: 5px;
+}
+
+#Cabeza h1 {
+  float: left;
+}
+
+.menu {
+  float: right;
+  margin-top: 10px;
+  display: block;
+}
+
+.menu li {
+  list-style: none;
+  float: left;
+  margin: 5px;
+}
+
+.menu li ul {
+  display: none;
+  position: absolute;
+}
+
+.menu li:hover ul {
+  display: block;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.menu a:hover {
+  background: rgb(251, 251, 251, 0.5);
+}
+
+.ContenedorNav {
+  width: 100%;
+  margin: auto;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 5px;
+}
+
+#Principal {
+  color: #fff;
+  position: relative;
+  top: 40%;
+  padding: 10px;
+}
+
+.ContenedorPrin {
+  font-weight: 600;
+  font-size: 20px;
+}
+.ContenedorPrin p {
+  margin-left: 1rem;
+}
+
+.ContenedorPrin a {
+  color: #fff;
+  text-decoration: none;
+  width: 10%;
+  padding: 5px 10px;
+}
+
+.intro {
+  text-align: center;
+  margin: 4rem 10rem;
+}
+.intro h2 {
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  padding: 0rem 11rem;
+  margin-bottom: 1.5rem;
+  color: #505050;
+}
+
+.intro img {
+  width: 70%;
+}
+
+#Niñez,
+#Juventud {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Niñez {
+  background: #f06728;
+  color: #fff;
+}
+
+#Niñez img {
+  width: 50%;
+}
+
+#Juventud img {
+  width: 50%;
+}
+
+#Juventud div {
+  margin-left: 3rem;
+}
+
+#Familia {
+  border-top: 2px solid #ec520b;
+  margin: 0 4rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+#Familia h1,
+h2 {
+  margin: 1rem;
+}
+
+#Familia h1 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 60px;
+  color: #f06728;
+}
+
+.matrimonio,
+.hijos {
+  margin: 2rem 0;
+  padding: 0 5rem;
+}
+
+.matrimonio div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.matrimonio img {
+  width: 30%;
+}
+
+.hijos {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.hijos p {
+  margin-bottom: 1.5rem;
+  margin-right: 3rem;
+  color: #505050;
+}
+
+.hijos img {
+  width: 40%;
+}
+
+#Momentos {
+  background: #f06728;
+  color: #fff;
+  padding: 5rem;
+}
+
+#Momentos h1 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+
+.content-m {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.triste {
+  background-color: #ffffff;
+  color: #f06728;
+  padding: 5rem;
+  margin-left: 1rem;
+  border-radius: 3px;
+}
+
+footer {
+  background-color: #313131;
+  padding: 0.2rem 0;
+  text-align: center;
+  color: #fff;
+}
