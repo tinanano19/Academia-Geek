@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Pseudo</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pseudoclases">
+            <div class="info-pc">
+                <h1>:Pseudoclases</h1>
+                <p>Estilos especiales dependiendo del contexto, posición o estado.</p>
+            </div>
+            <div class="content">
+                <div class="pc">
+                    <h1>:visited</h1>
+                    <p>Representa enlaces que el usuario ya ha visitado. Por motivos de privacidad, los estilos que se
+                        pueden modificar con este selector son muy limitados.</p>
+                    <a href="#" class="pseudoclase1">Haz click aquí para probar</a>
+                </div>
+                <div class="pc">
+                    <h1>:active</h1>
+                    <p>Representa un elemento (como un botón) que el usuario está activando. Cuando se usa un mouse, la
+                        "activación" generalmente comienza cuando el usuario presiona el botón primario del mouse y
+                        termina
+                        cuando se suelta. La pseudo-clase :active se usa comúnmente en los elementos a y button, pero
+                        también se puede usar en otros elementos.</p>
+                    <a href="#" class="pseudoclase2">Mantén presionado para probar</a>
+                </div>
+                <div class="pc pseudoclase3">
+                    <h1 id="t">:target</h1>
+                    <p id="p1">representa un elemento único (el elemento objetivo) con un id que coincide con el
+                        fragmento de la
+                        URL. Se puede usar para resaltar la parte de una página a la que se ha vinculado desde una tabla
+                        de contenido.</p>
+                    <a href="#t">¡Salta al titulo!</a>
+                    <br>
+                    <br>
+                    <a href="#p1">¡Salta al primer párrafo!</a>
+                </div>
+                <div class="pc">
+                    <h1>:hover</h1>
+                    <p>Coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no
+                        necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un elemento
+                        con
+                        el cursor (puntero del mouse).</p>
+                    <a href="" class="pseudoclase4">Pasa el mouse por aquí</a>
+                </div>
+                <div class="pc ">
+                    <h1>:focus</h1>
+                    <p>Representa un elemento (como una entrada de formulario) que ha recibido el foco. Generalmente se
+                        activa cuando el usuario hace clic, toca un elemento o lo selecciona con la tecla "Tab" del
+                        teclado.
+                    </p>
+                    <input class="pseudoclase5" value="Seleccióname para probar">
+                </div>
+            </div>
+        </div>
+        <div class="pseudoelementos">
+            <div class="info-pc">
+                <h1>::Pseudoelementos</h1>
+                <p>Se le puede dar estilo a elementos que no existen realmente en el HTML, <br> y que se pueden generar
+                    desde
+                    CSS.</p>
+            </div>
+            <div class="content">
+                <div class="pe pseudoelemento1">
+                    <h1>::first-letter</h1>
+                    <p>aplica estilos a la primera letra de la primera línea un elemento de bloque, sólo cuando no es
+                        precedido de otro contenido (como imágenes o tablas).</p>
+                </div>
+                <div class="pe pseudoelemento2">
+                    <h1>::first-line</h1>
+                    <p>aplica estilos a la primera línea de un elemento de bloque. Nótese que la longitud de la primera
+                        línea depende de muchos factores, incluyendo el ancho del elemento, el ancho del documento y el
+                        tamaño de fuente del texto.</p>
+                </div>
+                <div class="pe pseudoelemento3">
+                    <h1>::after</h1>
+                    <p>crea un pseudo-elemento que es el último hijo del elemento seleccionado. Es comunmente usado para
+                        añadir contenido cosmético a un elemento con la propiedad content.Es en linea (inline) de forma
+                        predeterminada.</p>
+                </div>
+                <div class="pe pseudoelemento4">
+                    <h1>::before</h1>
+                    <p> crea un pseudoelemento que es el primer hijo del elemento seleccionado. Es usado normalmente
+                        para añadir contenido estético a un elemento, usando la propiedad content. Este elemento se
+                        muestra en línea con el texto de forma predeterminada.</p>
+                </div>
+                <div class="pe pseudoelemento5">
+                    <h1>::marker</h1>
+                    <p>selecciona la caja de marcadores de un elemento de la lista, que normalmente contiene una viñeta
+                        o un número. Funciona en cualquier elemento o pseudo-elemento configurado para display:
+                        list-item, como el elemento li y summary.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

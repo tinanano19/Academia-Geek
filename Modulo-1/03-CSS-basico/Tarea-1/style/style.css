@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(63, 63, 63);
+    text-align: center;
+}
+
+.info-pc{
+    background-color: #007BDF;
+    padding: 5rem 0;
+    color: white;
+    
+}
+
+.info-pc h1{
+    margin: 1rem 0; 
+    font-size: 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+}
+
+.content div{
+    width: 30rem;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.content h1{
+    margin: 1rem 0; 
+    font-weight: 300;
+}
+
+.content p{
+    margin: 1rem 0; 
+}
+
+.pc, .pe{
+    box-shadow: 1px 1px 10px #d5eaf0;
+}
+
+.pseudoclase1{
+    color: blue;
+}
+
+.pseudoclase1:visited{
+    color: red;
+}
+
+.pseudoclase2:active{
+    color: palevioletred;
+}
+
+.pseudoclase3 p:target, h1:target {
+    background-color: #f7f7f7;
+  }
+  
+  .pseudoclase3 p:target::before ,h1:target::before {
+    content: "►";
+    color: rgb(50, 156, 205);
+    margin-right: .25em;
+  }
+
+  .pseudoclase4{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30rem;
+      height: 4rem;
+      background-color:#007BDF;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 5rem;
+  }
+  .pseudoclase4:hover{
+    background-color:#4aa2eb;
+}
+
+.pseudoclase5{
+    border: none;
+    background-color: #4aa2eb;
+    color: white;
+    width: 17rem;
+    height:2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+}
+
+.pseudoclase5:focus{
+    background-color: #d02be6;
+}
+  
+
