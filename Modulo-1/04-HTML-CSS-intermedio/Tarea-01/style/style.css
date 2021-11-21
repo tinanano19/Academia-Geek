@@ -36,7 +36,7 @@ body {
     margin-top: 0.5rem;
 }
 
-#revoloteado {
+#btn {
     background-color: #1b8ffc;
     text-decoration: none;
     color: white;
@@ -48,4 +48,8 @@ body {
     align-items: center;
     border-radius: 3rem;
     margin-top: 1rem;
+  }
+
+  #btn:hover{
+    background-color: #52a6f5; 
   }
