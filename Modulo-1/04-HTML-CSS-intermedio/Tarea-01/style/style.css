@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #d8d8d8;
+  background-color: #1b8ffc;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 48rem;
+  height: 30rem;
+  margin: 8rem 0rem;
+  background-image: url(../img/Loki.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0 3rem;
+  text-align: left;
+}
+
+.container img {
+  width: 6rem;
+  margin-top: 9.3rem;
+}
+
+.disp{
+    font-size: 26px;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+#texto{
+    color: #939390;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+#revoloteado {
+    background-color: #1b8ffc;
+    text-decoration: none;
+    color: white;
+    width: 7rem;
+    height: 2.1rem;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    margin-top: 1rem;
+  }
