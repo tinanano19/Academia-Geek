@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Tarea 1</title>
+
+</head>
+
+<body>
+    <div class="container shadow">
+        <h2>Registro</h2>
+        <form action="">
+            <label for="name">Nombre</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Nombre" class="width2" required>
+            <input type="text" name="name" id="lastName" placeholder="Apellidos" class="width2" required>
+            <br>
+            <label for="user">Nombre de usuario</label>
+            <br>
+            <input type="text" name="user" id="user" placeholder="@gmail.com" class="width" required>
+            <br>
+            <label for="pswd">Contraseña</label>
+            <br>
+            <input type="password" name="pswd" id="pswd" class="width" required>
+            <br>
+            <label for="Cpswd">Confirma tu contraseña</label>
+            <br>
+            <input type="password" name="Cpswd" id="Cpswd" class="width" required>
+            <br>
+            <label for="date">Fecha de nacimiento</label>
+            <br>
+            <input type="number" name="date" id="day" required>
+            <select name="month" id="month" required>
+                <option value="">Mes</option>
+                <option value="">Enero</option>
+                <option value="">Febrero</option>
+                <option value="">Marzo</option>
+                <option value="">Abril</option>
+                <option value="">Mayo</option>
+                <option value="">Junio</option>
+                <option value="">Julio</option>
+                <option value="">Agosto</option>
+                <option value="">Septiembre</option>
+                <option value="">Octubre</option>
+                <option value="">Noviembre</option>
+                <option value="">Diciembre</option>
+            </select>
+            <input type="number" name="date" id="year" required>
+            <br>
+            <label for="genere">Sexo</label>
+            <br>
+            <select name="genere" id="genere" class="width">
+                <option value="">Seleccione su sexo</option>
+                <option value="">Hombre</option>
+                <option value="">Mujer</option>
+                <option value="">Otro</option>
+            </select>
+            <br>
+            <label for="cel">Teléfono móvil</label>
+            <br>
+            <input type="tel" name="cel" id="cel" class="width"
+            pattern="+34 [0-9]{9}" value="+34 " required>
+            <br>
+            <label for="email">Tu dirección de correo actual</label>
+            <br>
+            <input type="email" name="email" id="email" class="width" required>
+            <br>
+            <label for="gps">Ubicación</label>
+            <br>
+            <select name="gps" id="gps" class="width" required>
+                <option value="">Seleccione su país</option>
+                <option value="">Colombia</option>
+                <option value="">España</option>
+                <option value="">Canada</option< />>
+            </select>
+            <div class="btn">
+                <input type="submit" value="Siguiente paso" id="btn">
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>

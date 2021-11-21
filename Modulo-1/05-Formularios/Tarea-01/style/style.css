@@ -1,0 +1,84 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #636363;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 25rem;
+  height: auto;
+  margin: 5.5rem;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  text-align: left;
+}
+
+.shadow {
+  box-shadow: 0px 0px 5px #00000021;
+}
+
+.width {
+  width: 97%;
+}
+.width2 {
+  width: 47%;
+}
+
+input,
+select {
+  height: 2rem;
+  border: none;
+  border-radius: 1.5px;
+  color: #636363;
+  box-shadow: inset 1px 1px 1px #00000021;
+  padding: 0 0.4rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+#genere, #gps{
+    width: 100%;
+}
+
+#name {
+  width: 11rem;
+}
+#lastName {
+  width: 11rem;
+}
+
+#user::-webkit-input-placeholder{
+    text-align: right;
+    padding-right: 1rem;
+}
+
+#day {
+  width: 3rem;
+}
+#month {
+  width: 14rem;
+}
+#year {
+  width: 5rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+}
+#btn {
+  background-color: #2884ee;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 4px;
+}
