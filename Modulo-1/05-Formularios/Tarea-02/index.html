@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Tarea 1</title>
+
+</head>
+
+<body>
+    <div class="container shadow">
+        <div class="cont">
+            <h2>Registrarte</h2>
+            <p>Es rápido y fácil</p>
+        </div>
+
+        <form action="">
+            <input type="text" name="name" id="name" placeholder="Nombre" class="width2" required>
+            <input type="text" name="name" id="lastName" placeholder="Apellidos" class="width2" required>
+            <br>
+            <input type="email" name="email" id="email" class="width"
+                placeholder="Número de celular o correo electrónico" required>
+            <input type="password" name="pswd" id="pswd" class="width" placeholder="Contraseña nueva" required>
+            <br>
+            <label for="date" class="date">Fecha de nacimiento</label>
+            <br>
+            <select name="day" id="day" required>
+                <option value="">Día</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+            </select>
+            <select name="month" id="month" required>
+                <option value="">Mes</option>
+                <option value="">Enero</option>
+                <option value="">Febrero</option>
+                <option value="">Marzo</option>
+                <option value="">Abril</option>
+                <option value="">Mayo</option>
+                <option value="">Junio</option>
+                <option value="">Julio</option>
+                <option value="">Agosto</option>
+                <option value="">Septiembre</option>
+                <option value="">Octubre</option>
+                <option value="">Noviembre</option>
+                <option value="">Diciembre</option>
+            </select>
+            <select name="year" id="year" required>
+                <option value="">Año</option>
+                <option value="">1997</option>
+                <option value="">1998</option>
+                <option value="">1999</option>
+                <option value="">2000</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+                <option value="">2004</option>
+                <option value="">2005</option>
+                <option value="">2006</option>
+                <option value="">2007</option>
+                <option value="">2008</option>
+            </select>
+            <br>
+            <label for="genero">Sexo</label>
+            <br>
+            <div class="cont-gen">
+                <div class="gen">
+                    <label for="femenino">Mujer</label>
+                    <input type="radio" id="femenino" name="genero">
+                </div>
+                <div class="gen">
+                    <label for="masculino">Hombre</label>
+                    <input type="radio" id="masculino" name="genero">
+                </div>
+                <div class="gen">
+                    <label for="pers">Personalizado</label>
+                    <input type="radio" id="pers" name="genero">
+                </div>
+            </div>
+            <br>
+            <p>Al hacer clic en "Registrarte", aceptas nuestras <a href="">Condiciones</a>, la <a href="">Politica de
+                    datos</a>
+                y la <a href="">Politica de cookies</a>. Es posible que te enviemos notificaciones por SMS, que
+                puedes desactivar cuando quieras
+            </p>
+            <div class="btn">
+                <input type="submit" value="Registrarte" id="btn">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
