@@ -9,3 +9,4 @@ horas = prompt('Ingrese el numero de horas que estuvo')
 total = Math.ceil(horas) * valorH;
 
 document.write(`El valor total a pagar es de $${total}`)
+

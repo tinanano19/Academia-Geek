@@ -9,3 +9,4 @@ valorH = prompt("Ingrese el valor/h")
 sueldo= horas * valorH;
 
 document.write(`Hola, ${Nombre}, su sueldo es de $${sueldo}.`)
+
