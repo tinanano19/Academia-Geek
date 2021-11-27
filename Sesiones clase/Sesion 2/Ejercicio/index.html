@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/scripts/script.js"></script>
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Parqueadero</title>
+</head>
+
+<body>
+    <div class="container shadow">
+        <h1>Parqueadero</h1>
+
+        <div class="info">
+
+            <div>
+                <label for="prop">Propietario</label>
+                <br>
+                <input type="text" placeholder="Propietario" class="width" id="propietario">
+            </div>
+
+
+            <div class="pla-mod" >
+                <div>
+                    <label for="vehi">Tipo de vehículo</label>
+                    <select class="width2" id="tipo">
+                        <option>Seleccionar vehículo</option>
+                        <option>Carro</option>
+                        <option>Moto</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="placa">Placa</label>
+                    <br>
+                    <input type="text" placeholder="XXX-###" class="width" id="placa">
+                </div>
+                <div>
+                    <label for="model">Modelo</label>
+                    <br>
+                    <input type="text" placeholder="Ej: Optra 2004" class="width" id="modelo">
+                </div>
+            </div>
+            <div class="fechas">
+                <div>
+                    <label for="fecha">Fecha</label>
+                    <br>
+                    <input type="date" class="width" id="fecha">
+                </div>
+                <div>
+                    <label for="horaE">Hora de entrada</label>
+                    <br>
+                    <input type="time" class="width" id="horaE">
+                </div>
+                <div>
+                    <label for="horaS">Hora de salida</label>
+                    <br>
+                    <input type="time" class="width" id="horaS">
+                </div>
+                <div>
+                    <label for="horas">Cantidad de Horas</label>
+                    <br>
+                    <input type="text" placeholder="Ej: 6" class="width" id="horas">
+                </div>
+            </div>
+            <div class="btn">
+                <button onclick="calcularPrecio()">Calcular</button>
+            </div>
+            <div class="valor" id="cont-val" >
+                <p id="Valor"></p>
+                <p id="Descuento"></p>
+                <p id="Total"></p>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
