@@ -6,7 +6,7 @@ function calcularPrecio() {
   let vehiculo = document.getElementById("tipo").value;
   let horas = Number(document.getElementById("horas").value);
 
-  valorSin = Servicio(horas,valor);
+  valorSin = Servicio(horas);
   descuento = Descuento(vehiculo, valorSin);
   valorTotal = valorSin - descuento;
 
@@ -16,14 +16,14 @@ function calcularPrecio() {
   document.getElementById("Total").innerHTML = "Total: $"+ valorTotal;
 }
 
-function Servicio(horas,valor) {
-  if (horas > 0 && horas < 2) {
+function Servicio(horas) {
+  if (horas > 0 && horas <= 2) {
     valorHora = 5000;
     valor = valorHora * horas;
-  } else if (horas > 2 && horas < 5) {
+  } else if (horas > 2 && horas <= 5) {
     valorHora = 4000;
     valor = 2 * 5000 + (horas - 2) * valorHora;
-  } else if (horas > 5 && horas < 10) {
+  } else if (horas > 5 && horas <= 10) {
     valorHora = 3000;
     valor = 2 * 5000 + 3 * 4000 + (horas - 5) * valorHora;
   } else if (horas > 10) {
